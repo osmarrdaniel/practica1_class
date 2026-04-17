@@ -9,6 +9,7 @@ class Tenis:
         
     def get_marca(self): 
         return self.__marca 
-    def set_marca(self, modelo):
-        self.__modelo = modelo
+    def set_marca(self, marca):
+        self.__marca = marca
         
+    
