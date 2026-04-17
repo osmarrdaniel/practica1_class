@@ -7,4 +7,8 @@ class Tenis:
         self.__talla = talla 
         self.__preciofinal = 0
         
-    
+    def get_marca(self): 
+        return self.__marca 
+    def set_marca(self, modelo):
+        self.__modelo = modelo
+        
