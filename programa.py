@@ -15,4 +15,8 @@ class Tenis:
         return self.__modelo
     def set_modelo(self, modelo):
         self.__modelo = modelo 
-        
+    def get_precio(self):
+        return self.__precio
+    def set_precio(self, precio):
+        self.__precio = precio 
+            
