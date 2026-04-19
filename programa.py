@@ -23,4 +23,10 @@ class Tenis:
         return self.__descuento
     def set_descuento(self, descuento):
         self.__descuento = descuento 
+    def get_talla(self):
+        return self.__talla
+    def set_talla(self, talla):
+        self.__talla = talla
+        
+        
             
