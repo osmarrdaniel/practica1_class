@@ -19,4 +19,8 @@ class Tenis:
         return self.__precio
     def set_precio(self, precio):
         self.__precio = precio 
+    def get_descuento(self):
+        return self.__descuento
+    def set_descuento(self, descuento):
+        self.__descuento = descuento 
             
