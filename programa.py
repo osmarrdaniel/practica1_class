@@ -36,4 +36,13 @@ class Tenis:
     def calcular_ahorro(self):
         ahorro = self.__precio * self.__descuento
         return ahorro
-            
+    
+    def info(self):
+        print(f"Marca: {self.__marca}")
+        print(f"Modelo: {self.__modelo}")
+        print(f"Precio: {self.__precio}")
+        print(f"Descuento: {self.__descuento * 100}%")
+        print(f"Talla: {self.__talla}")
+        print(f"Precio final: ${self.__preciofinal}")
+        print(f"Dinero ahorrado: ${self.calcular_ahorro()}") 
+               
