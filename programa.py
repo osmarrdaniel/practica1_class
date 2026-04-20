@@ -33,4 +33,7 @@ class Tenis:
         self.__preciofinal = self.__precio - descuento
         return self.__preciofinal
             
+    def calcular_ahorro(self):
+        ahorro = self.__precio * self.__descuento
+        return ahorro
             
