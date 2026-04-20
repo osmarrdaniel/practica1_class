@@ -45,4 +45,9 @@ class Tenis:
         print(f"Talla: {self.__talla}")
         print(f"Precio final: ${self.__preciofinal}")
         print(f"Dinero ahorrado: ${self.calcular_ahorro()}") 
+
+
+tenis1 = Tenis("Nike", "Air Force 1", 2500, 0.30, 26)
+tenis1.calcular_precio_final()
+tenis1.info()
                
