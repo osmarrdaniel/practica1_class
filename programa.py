@@ -28,5 +28,9 @@ class Tenis:
     def set_talla(self, talla):
         self.__talla = talla
         
-        
+    def calcular_precio_final(self):
+        descuento = self.__precio * self.__descuento
+        self.__preciofinal = self.__precio - descuento
+        return self.__preciofinal
+            
             
