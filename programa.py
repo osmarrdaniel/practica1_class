@@ -50,4 +50,20 @@ class Tenis:
 tenis1 = Tenis("Nike", "Air Force 1", 2500, 0.30, 26)
 tenis1.calcular_precio_final()
 tenis1.info()
-               
+  
+#Uso de getters
+print(f"Marca: {tenis1.get_marca()}")
+print(f"Modelo: {tenis1.get_modelo()}")
+print(f"Precio: {tenis1.get_precio()}")
+print(f"Descuento: {tenis1.get_descuento()}")
+print(f"Talla: {tenis1.get_talla()}")
+
+#Uso de setters 
+tenis1.set_marca("Adidas")
+tenis1.set_modelo("Adi2000")
+tenis1.set_precio(2600)
+tenis1.set_descuento(0.20)
+tenis1.set_talla(26)
+
+tenis1.calcular_precio_final()
+tenis1.info()            
